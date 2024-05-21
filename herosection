@@ -1,0 +1,27 @@
+import React from 'react';
+
+const HeroSection = () => {
+  return (
+    <section className="bg-gradient-to-r from-gradientFrom to-gradientTo text-white py-12">
+      <div className="container mx-auto text-center">
+        <h1 className="text-4xl font-outfit font-bold mb-4">Attract Your Visitors Attention With Colorful Motion Art Effect</h1>
+        <p className="text-lg font-sora mb-8">Unleash the power of creativity with Motion Art for Elementor - your ultimate solution for seamlessly integrating captivating animations into your website.</p>
+        <button className="bg-green-500 text-white px-6 py-3 rounded hover:bg-green-600 mr-4">Purchase Now</button>
+        <button className="bg-transparent border border-white text-white px-6 py-3 rounded hover:bg-white hover:text-black">Learn More</button>
+        <div className="mt-8 text-left">
+          <h2 className="text-xl font-outfit font-bold mb-2">An All-Round Plugin With Powerful Features</h2>
+          <p className="font-sora mb-4">Whether you're a seasoned web designer or just starting out, Motion Art for Elementor seamlessly integrates with the Elementor platform, providing you with a seamless and intuitive experience.</p>
+          <h2 className="text-xl font-outfit font-bold mb-2">Light Weight</h2>
+          <p className="font-sora mb-4">Motion Art for Elementor is designed to be lightweight.</p>
+          <h2 className="text-xl font-outfit font-bold mb-2">100% Responsive</h2>
+          <p className="font-sora mb-4">Create a consistent visual experience across all devices.</p>
+          <h2 className="text-xl font-outfit font-bold mb-2">User Friendly Interface</h2>
+          <p className="font-sora mb-4">Ensure a smooth experience for both applicants and administrators.</p>
+        </div>
+        <p className="mt-8">&copy; 2023 Copyright. All rights reserved by QodeMatrix</p>
+      </div>
+    </section>
+  );
+}
+
+export default HeroSection;
