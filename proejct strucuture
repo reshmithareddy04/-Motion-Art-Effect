@@ -1,0 +1,11 @@
+motion-art-effect/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── App.js
+│   ├── index.css
+│   ├── index.js
+├── tailwind.config.js
+├── package.json
+└── README.md
